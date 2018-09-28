@@ -43,7 +43,7 @@ $search-notice-bg: #c97a7e !default;
 
 // TEXT COLORS
 ////////////////////
-$main-text: #333 !default; // main content text color
+$main-text: #333(0, 0, 0) !default; // main content text color
 $nav-text: #fff !default;
 $nav-active-text: #fff !default;
 $nav-active-parent-text: #fff !default; // parent links of the current section
@@ -88,7 +88,7 @@ $phone-width: $tablet-width - $nav-width !default; // min width before reverting
 
 // OTHER
 ////////////////////
-$nav-footer-border-color: #666 !default;
+$nav-footer-border-color: rgb(221, 135, 135) !default;
 $search-box-border-color: #666 !default;
 
 
